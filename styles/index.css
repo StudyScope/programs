@@ -1,0 +1,19 @@
+:root {
+	--minor-color: #6E6E6E;
+}
+
+/*
+-webkit-animation: @value;
+-moz-animation:    @value;
+-o-animation:      @value;
+-ms-transition:    @value;
+animation:         @value;
+*/
+
+body {
+	width: 100%;
+}
+
+.main-content {
+	margin: 3vw;
+}
