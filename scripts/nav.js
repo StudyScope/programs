@@ -1,4 +1,5 @@
 var hamburger_enabled = false;
+var hamburger_enabled = false;
 
 function hamburger() {
 
