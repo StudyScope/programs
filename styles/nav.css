@@ -53,13 +53,14 @@ a {
 
 @media screen and (max-width:950px) {
 	#logo {
-	  height: calc(var(--logo-height) * 1.6);
+	  height: calc(var(--logo-height) * 0.8);
 	  margin-left: 20px;
 	}
 }
 
 .logo-text {
 	color: black;
+	font-size: 80%;
 	display: inline-block;
 }
 
@@ -149,6 +150,7 @@ footer {
 
 #hamburger-container {
 	display: none;
+	height: 10%;
 }
 
 #mobile-nav-buttons {

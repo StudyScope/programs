@@ -93,3 +93,32 @@ body {
 	background-color: #adadad;
 	cursor: not-allowed;
 }
+
+@media screen and (max-width:900px) {
+
+	.program {
+		display: grid;
+		grid-template-rows: 1fr;
+		grid-template-columns: 1fr;
+		box-shadow: 0px 5px 25px 8px rgba(0, 0, 0, 0.2);
+		border-radius: 20px;
+		margin-bottom: 7vh;
+	}
+
+	.image-container {
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		height: auto;
+	}
+
+
+	.image-container img {
+		width: 100%;
+		height: auto;
+		border-top-left-radius: 20px;
+		border-top-right-radius: 20px;
+		border-bottom-left-radius: 0px;
+	}
+
+}
